@@ -2,7 +2,7 @@ clean:
 	rm -r public/*
 	rm -r node_modules/
 
-install-dep:
+initialize:
 	docker run -it --rm \
 	--name miniexp-html-install-dep \
 	-v `pwd`:/usr/src/app \
